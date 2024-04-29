@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultados para la Parada {{ parada }}</title>
+</head>
+<body>
+    <h1>Resultados para la Parada {{ parada }}</h1>
+    <ul>
+        {% for tiempo in tiempos %}
+            <li>{{ tiempo }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
